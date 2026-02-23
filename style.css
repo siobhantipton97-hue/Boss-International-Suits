@@ -259,3 +259,69 @@ footer {
     nav {
         margin-top: 15px;
     }
+.contact-section {
+  padding: 80px 20px;
+  text-align: center;
+  background: #111;
+}
+    .contact-buttons {
+  margin: 30px 0 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-buttons a {
+  text-decoration: none;
+  padding: 14px 28px;
+  font-weight: 600;
+  border-radius: 30px;
+  transition: 0.3s ease;
+}
+
+/* Primary (Red) */
+.btn-primary {
+  background: #c40000;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #e00000;
+  transform: translateY(-3px);
+}
+
+/* Secondary (Gold) */
+.btn-secondary {
+  background: #d4af37;
+  color: black;
+}
+
+.btn-secondary:hover {
+  background: #f0c94d;
+  transform: translateY(-3px);
+}
+
+/* Outline */
+.btn-outline {
+  border: 2px solid #c40000;
+  color: #c40000;
+}
+
+.btn-outline:hover {
+  background: #c40000;
+  color: white;
+  transform: translateY(-3px);
+}
+    .map-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 40px rgba(196, 0, 0, 0.25);
+}
+    .contact-section h2 {
+  font-size: 2rem;
+  color: #c40000;
+  margin-bottom: 30px;
+}
