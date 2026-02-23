@@ -29,7 +29,7 @@ h1, h2, h3 {
 /* ===== HEADER ===== */
 
 header {
-    background: #2C2F36;   /* was #8B0000 */
+    background: #111;
     padding: 20px 0;
     position: sticky;
     top: 0;
@@ -96,17 +96,19 @@ nav a:hover {
 /* ===== BUTTONS ===== */
 
 .btn-primary {
-    background: #2C2F36;   /* was #8B0000 */
+    background: #8B0000;
     color: #fff;
     padding: 14px 28px;
     text-decoration: none;
     font-weight: 600;
     border-radius: 4px;
     transition: 0.3s;
+    box-shadow: 0 6px 18px rgba(139, 0, 0, 0.25);
 }
 
 .btn-primary:hover {
-    background: #3A3E47;   /* was #B22222 */
+    background: #B22222;
+    transform: translateY(-2px);
 }
 
 .btn-secondary {
@@ -191,7 +193,7 @@ nav a:hover {
 /* ===== CONTACT CTA STRIP ===== */
 
 #contact {
-    background: linear-gradient(135deg, #2C2F36, #3A3E47);  /* was red gradient */
+   background: #1a1a1a;
     color: #fff;
     text-align: center;
 }
@@ -244,21 +246,4 @@ footer {
     nav {
         margin-top: 15px;
     }
-}
-/* ===== COLOR OVERRIDES ===== */
-
-header {
-    background: #111;
-}
-
-#contact {
-    background: #1a1a1a;
-}
-
-.btn-primary {
-    background: #8B0000;
-}
-
-.btn-primary:hover {
-    background: #B22222;
 }
